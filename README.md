@@ -1,34 +1,34 @@
-# Notas de Bendición - Página de Soporte
+# Pocket Promises - Support Page
 
-Página de soporte oficial para la aplicación móvil "Notas de Bendición".
+Official support page for the "Pocket Promises" mobile application.
 
-## 🌐 Acceso a la Página
+## 🌐 Page Access
 
-Una vez configurado GitHub Pages, la página estará disponible en:
+Once GitHub Pages is configured, the page will be available at:
 ```
-https://[tu-usuario].github.io/soportenotasdebendicion
+https://[your-username].github.io/soportenotasdebendicion
 ```
 
-## ⚙️ Configuración de GitHub Pages
+## ⚙️ GitHub Pages Configuration
 
-Para activar GitHub Pages:
+To activate GitHub Pages:
 
-1. Ve a la configuración del repositorio en GitHub (Settings)
-2. En el menú lateral, selecciona "Pages"
-3. En "Source", selecciona la rama `main` o `master`
-4. En "Folder", selecciona `/ (root)`
-5. Haz clic en "Save"
+1. Go to the repository settings on GitHub (Settings)
+2. In the sidebar, select "Pages"
+3. In "Source", select the `main` or `master` branch
+4. In "Folder", select `/ (root)`
+5. Click "Save"
 
-En unos minutos, tu página estará disponible.
+In a few minutes, your page will be available.
 
-## 📧 Contacto
+## 📧 Contact
 
-Email de soporte: contacto@fortalezaespiritual.com
+Support email: contacto@fortalezaespiritual.com
 
-## 📝 Actualizar la Página
+## 📝 Update the Page
 
-Para modificar el contenido de la página de soporte, edita el archivo `index.html` y haz commit de los cambios.
+To modify the support page content, edit the `index.html` file and commit the changes.
 
 ---
 
-**Nota:** Este sitio cumple con los requisitos de Apple App Store para páginas de soporte de aplicaciones.
+**Note:** This site complies with Apple App Store requirements for app support pages.
