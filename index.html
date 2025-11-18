@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soporte - Notas de Bendición</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px 30px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+
+        header p {
+            font-size: 1.1em;
+            opacity: 0.95;
+        }
+
+        .content {
+            padding: 40px 30px;
+        }
+
+        .section {
+            margin-bottom: 40px;
+        }
+
+        .section h2 {
+            color: #667eea;
+            font-size: 1.8em;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #667eea;
+        }
+
+        .section h3 {
+            color: #764ba2;
+            font-size: 1.3em;
+            margin-top: 25px;
+            margin-bottom: 10px;
+        }
+
+        .section p, .section ul {
+            margin-bottom: 15px;
+            font-size: 1.05em;
+            color: #555;
+        }
+
+        .section ul {
+            list-style-position: inside;
+            padding-left: 20px;
+        }
+
+        .section li {
+            margin-bottom: 8px;
+        }
+
+        .contact-box {
+            background: linear-gradient(135deg, #667eea15 0%, #764ba215 100%);
+            border-left: 4px solid #667eea;
+            padding: 25px;
+            border-radius: 8px;
+            margin: 25px 0;
+        }
+
+        .contact-box h3 {
+            color: #667eea;
+            margin-top: 0;
+            margin-bottom: 15px;
+        }
+
+        .contact-btn {
+            display: inline-block;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 15px 35px;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: 600;
+            font-size: 1.1em;
+            transition: transform 0.2s, box-shadow 0.2s;
+            box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
+        }
+
+        .contact-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(102, 126, 234, 0.4);
+        }
+
+        .faq-item {
+            margin-bottom: 25px;
+            padding: 20px;
+            background: #f9f9f9;
+            border-radius: 8px;
+            border-left: 3px solid #667eea;
+        }
+
+        .faq-item h4 {
+            color: #333;
+            margin-bottom: 10px;
+            font-size: 1.15em;
+        }
+
+        .faq-item p {
+            color: #666;
+            margin-bottom: 0;
+        }
+
+        footer {
+            background: #f5f5f5;
+            padding: 30px;
+            text-align: center;
+            color: #666;
+            border-top: 1px solid #e0e0e0;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 2em;
+            }
+
+            .content {
+                padding: 30px 20px;
+            }
+
+            .section h2 {
+                font-size: 1.5em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>✨ Notas de Bendición</h1>
+            <p>Centro de Soporte y Ayuda</p>
+        </header>
+
+        <div class="content">
+            <div class="section">
+                <h2>📱 Acerca de la Aplicación</h2>
+                <p>
+                    <strong>Notas de Bendición</strong> es tu compañera espiritual diaria, diseñada para ayudarte a fortalecer tu fe
+                    y mantener un registro de las bendiciones en tu vida. Captura momentos de gratitud, reflexiones espirituales
+                    y pensamientos inspiradores en un espacio seguro y personal.
+                </p>
+            </div>
+
+            <div class="contact-box">
+                <h3>💌 ¿Necesitas Ayuda?</h3>
+                <p style="margin-bottom: 20px;">Estamos aquí para ayudarte. Si tienes preguntas, problemas o sugerencias, no dudes en contactarnos.</p>
+                <a href="mailto:contacto@fortalezaespiritual.com" class="contact-btn">Enviar Email</a>
+            </div>
+
+            <div class="section">
+                <h2>❓ Preguntas Frecuentes</h2>
+
+                <div class="faq-item">
+                    <h4>¿Cómo creo una nueva nota de bendición?</h4>
+                    <p>
+                        Abre la aplicación y toca el botón "+" o "Nueva Nota". Escribe tu reflexión, agradecimiento o pensamiento espiritual,
+                        y guárdalo. Puedes agregar la fecha y categorías para organizar mejor tus notas.
+                    </p>
+                </div>
+
+                <div class="faq-item">
+                    <h4>¿Mis notas son privadas?</h4>
+                    <p>
+                        Sí, absolutamente. Todas tus notas se almacenan de forma segura en tu dispositivo. No compartimos ni accedemos
+                        a tu contenido personal. Tu privacidad y la intimidad de tus reflexiones espirituales son nuestra prioridad.
+                    </p>
+                </div>
+
+                <div class="faq-item">
+                    <h4>¿Puedo hacer respaldo de mis notas?</h4>
+                    <p>
+                        Sí, puedes sincronizar tus notas con iCloud para mantenerlas seguras y acceder a ellas desde todos tus dispositivos Apple.
+                        Asegúrate de tener activada la sincronización con iCloud en la configuración de la app.
+                    </p>
+                </div>
+
+                <div class="faq-item">
+                    <h4>¿La aplicación requiere conexión a internet?</h4>
+                    <p>
+                        No, puedes usar Notas de Bendición completamente offline. Todas las funcionalidades principales están disponibles
+                        sin necesidad de conexión a internet.
+                    </p>
+                </div>
+
+                <div class="faq-item">
+                    <h4>¿Cómo puedo eliminar una nota?</h4>
+                    <p>
+                        Desliza la nota hacia la izquierda en la lista principal y selecciona "Eliminar", o abre la nota y busca la opción
+                        de eliminar en el menú.
+                    </p>
+                </div>
+            </div>
+
+            <div class="section">
+                <h2>🔒 Privacidad y Datos</h2>
+                <p>
+                    En Notas de Bendición respetamos profundamente tu privacidad:
+                </p>
+                <ul>
+                    <li><strong>No recopilamos datos personales:</strong> No rastreamos, almacenamos ni compartimos tu información personal.</li>
+                    <li><strong>Almacenamiento local:</strong> Todas tus notas se guardan únicamente en tu dispositivo.</li>
+                    <li><strong>Sin publicidad:</strong> No mostramos anuncios ni compartimos datos con terceros.</li>
+                    <li><strong>iCloud opcional:</strong> Si eliges usar iCloud, tus datos se sincronizan de forma segura según las políticas de privacidad de Apple.</li>
+                    <li><strong>Sin cuentas requeridas:</strong> No necesitas crear una cuenta ni proporcionar información personal para usar la app.</li>
+                </ul>
+            </div>
+
+            <div class="section">
+                <h2>📧 Contacto</h2>
+                <p>
+                    Si tienes preguntas, comentarios o necesitas asistencia, estamos aquí para ayudarte:
+                </p>
+                <p style="font-size: 1.2em; margin-top: 20px;">
+                    <strong>Email:</strong> <a href="mailto:contacto@fortalezaespiritual.com" style="color: #667eea; text-decoration: none;">contacto@fortalezaespiritual.com</a>
+                </p>
+                <p style="margin-top: 15px; color: #666;">
+                    Nos esforzamos por responder todas las consultas en un plazo de 24-48 horas.
+                </p>
+            </div>
+
+            <div class="section">
+                <h2>ℹ️ Información de la App</h2>
+                <p><strong>Desarrollador:</strong> Fortaleza Espiritual</p>
+                <p><strong>Categoría:</strong> Estilo de vida / Espiritualidad</p>
+                <p><strong>Compatibilidad:</strong> iOS</p>
+            </div>
+        </div>
+
+        <footer>
+            <p>&copy; 2024 Fortaleza Espiritual. Todos los derechos reservados.</p>
+            <p style="margin-top: 10px; font-size: 0.9em;">Notas de Bendición - Fortalece tu vida espiritual</p>
+        </footer>
+    </div>
+</body>
+</html>
